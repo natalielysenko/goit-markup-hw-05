@@ -512,7 +512,12 @@ footer {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-  padding: 16px 8px;
+  padding: 16px;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -540,7 +545,7 @@ footer {
 
   border: none;
   border-radius: 4px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   fill: #fff;
@@ -553,6 +558,10 @@ footer {
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #31d0aa;
+}
+
+.icon-btn-subscribe {
+  margin-left: 16px;
 }
 
 /* modal window */
@@ -603,6 +612,10 @@ footer {
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
+}
+
+.modal-icon-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-close {
@@ -744,7 +757,7 @@ footer {
   letter-spacing: 0.04em;
   color: #8e8f99;
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
