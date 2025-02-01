@@ -541,7 +541,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 
   border: none;
   border-radius: 4px;
